@@ -1,0 +1,15 @@
+{
+  "name": "sass-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node-sass --output-style compressed sass/style.scss css/style.min.css",
+    "build:dev": "npm run build -s -- --source-map css/style.min.map --source-map-embed",
+    "watch": "npm run build:dev -s -- --watch sass/*"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^3.3.2"
+  }
+}
