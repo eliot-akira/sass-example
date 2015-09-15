@@ -23,7 +23,7 @@ The following commands are run from the root of the project folder.
 npm install
 ```
 
-*Compile and minify the result*
+*Compile and minify the resulting file*
 
 ```sh
 npm run build
