@@ -1,5 +1,5 @@
 
-## Sass example
+## Sass Example
 
 ### Build
 
@@ -17,13 +17,13 @@ npm install
 npm run build
 ```
 
-*Compile with sourcemaps*
+*Compile with source maps*
 
 ```sh
 npm run build:dev
 ```
 
-*Watch for file changes and compile with sourcemaps automatically*
+*Watch for file changes and compile with source maps automatically*
 
 ```sh
 npm run watch
@@ -33,10 +33,10 @@ npm run watch
 
 ### Source maps
 
-Source maps allow mapping the compiled CSS to its source Sass files, when using a browser's inspector.
+Source maps allow mapping the compiled CSS to its source Sass files when using a browser's inspector. This makes development easier by showing which file corresponds to an element's style.
 
-An example is included in this repository. Open *index.html* in a browser, and see that the inspected styles indicate the correct source file and line number.
+An example is included in this repository. Open *index.html* in a browser, and see that the inspected style shows its source file and line number.
 
 ---
 
-Also see [Sass Guide](https://github.com/eliot-akira/sass-guide).
+See also: [Sass Guide](https://github.com/eliot-akira/sass-guide).
