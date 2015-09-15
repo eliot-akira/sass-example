@@ -1,7 +1,15 @@
 
 # Sass Example
 
-This example shows a minimal setup for using Sass. It provides commands to compile Sass to CSS with source maps, minify the result, and watch files for changes to automatically compile during development.
+This example shows a minimal setup for using Sass.
+
+It provides commands to:
+
+- compile Sass to CSS (optionally include source maps)
+
+- minify the result
+
+- watch files for changes to automatically compile during development
 
 ## Build
 
