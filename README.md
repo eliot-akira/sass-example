@@ -1,17 +1,21 @@
 
 # Sass Example
 
+This example shows a minimal setup for using Sass. It provides commands to compile Sass to CSS with source maps, minify the result, and watch files for changes to automatically compile during development.
+
 ## Build
 
 Requirement: [Node.js](https://nodejs.org/) and its included package manager, *npm*
 
-*Install dependencies*
+The following commands are run from the root of the project folder.
+
+*Install package dependencies*
 
 ```sh
 npm install
 ```
 
-*Compile Sass to CSS, and minify the result*
+*Compile and minify the result*
 
 ```sh
 npm run build
