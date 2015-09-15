@@ -35,7 +35,7 @@ npm run build
 npm run build:dev
 ```
 
-*Watch for file changes and compile with source maps automatically*
+*Watch for file changes and automatically compile with source maps*
 
 ```sh
 npm run watch
